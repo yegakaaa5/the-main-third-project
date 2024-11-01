@@ -13,7 +13,13 @@ module.exports = {
       fontFamily:{
         'estedad':'url(/assistent/font/Estedad-v5.0-Fontjo.com/Estedad[wght,kshd].ttf)',
         'nazanin':'url(/assistent/font/B-nazanin-bold/B Nazanin Bold_0.ttf)'
-      }
+      },
+      fontSize: {
+        'custom-xs': '10px',
+      },
+      width: {
+        '95': '95%',
+      },
     },
   },
   plugins: [],

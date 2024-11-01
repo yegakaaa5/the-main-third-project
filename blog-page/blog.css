@@ -1116,6 +1116,10 @@ video {
   width: 2.25rem;
 }
 
+.w-95 {
+  width: 95%;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -1162,10 +1166,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-95 {
-  width: 95%;
 }
 
 .max-w-\[85\%\] {
@@ -2218,34 +2218,17 @@ video {
     display: flex;
   }
 
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:w-95 {
     width: 95%;
-  }
-
-  .sm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .sm\:text-custom-xs {
-    font-size: 10px;
   }
 
   .sm\:text-\[12px\] {
     font-size: 12px;
   }
 
-  .sm\:text-\[\] {
-    color: ;
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 

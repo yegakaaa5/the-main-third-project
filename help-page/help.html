@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./help.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="bg-white p-1 shadow-2xl fixed w-full z-50 top-0 flex  font-[400] font-[estedad] h-[60px]">
+        <div class="container mx-auto flex items-center justify-between font-estedad">
+            <div class="flex items-center gap-3">
+                <button class="text-inherit rounded focus:outline-none object-center">
+                    <img src="/assistent/image/icons8-menu-24.png" alt="">
+                </button>
+                <a href="/main-page/main.html"
+                    class="text-purple-700 hover:bg-[#b4b0b656] rounded-md duration-300 px-2 py-2 text-base inline-block">
+                    <img class="h-5"
+                        src="https://strapi-upload-ig-web.s3.us-east-2.amazonaws.com/primary_logo_373b3dbb68.svg?w=1920"
+                        alt="">
+                </a>
+            </div>
+            <div class="flex gap-4 h-[60px]">
+                <div class="font-estedad flex  h-[60px]">
+                    <nav>
+                        <ul class="list-none flex items-center gap-10 text-xl h-[60px] max-[1200px]:hidden">
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a class="text-base text-[#330072] ">محصولات</a>
+                            </li>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a class="text-base text-[#330072] ">راه‌حل</a>
+                            </li>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a class="text-base text-[#330072] ">کارها</a>
+                            </li>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a href="/blog-page/blog.html" class="text-base text-[#330072]">بلاگ</a>
+                            </li>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a href="/mission-page/mission.html" class="text-base text-[#330072]">ماموریت</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="flex gap-3 items-center font-estedad">
+                    <a
+                    href="/help-page/help.html" class="border text-decoration-none border-current text-[#330072] px-3 py-1 text-base rounded duration-200 hover:bg-[#dfd9d943]">راهنمایی</a>
+                    <a
+                        class="bg-[#23004F] text-decoration-none border-[#23004F] border-[1px] text-white px-4 py-1  text-base rounded hover:shadow-lg duration-200">درخواست‌دمو</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="font-[estedad]">
+        <div class="bg-[#FBE8D9] w-full flex justify-center items-center font-[estedad] relative"
+            style="height: 150px;">
+        </div>
+        <div class="flex justify-center items-center flex-col bg-[#FFF9F4]">
+            <br><br>
+            <h3 class="text-[#330072]">پشتیبانی مشتری</h3><br>
+            <p dir="rtl" style="width: 470px;">
+                ایا شما یک مشتری فعلِی هستید که به دنبال پشتیبانی مشتری هستید؟
+                ما دوست داریم کمکت کنیم! فرم را پر کنید و یکی از اعضای تیم ما با شما تماس خواهد گرفت.</p>
+            <br><br>
+
+            <div class="max-w-lg p-8 bg-transparent rounded-lg" style="width: 34%;">
+                <form dir="rtl">
+                    <div class="mb-4">
+                        <input type="text" id="first-name"
+                            class="form-control w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:shadow-lg"
+                            placeholder="نام">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" id="last-name"
+                            class="form-control w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:shadow-lg"
+                            placeholder="نام خانوادگی">
+                    </div>
+                    <div class="mb-4">
+
+                        <input type="email" id="email"
+                            class="form-control w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:shadow-lg"
+                            placeholder="ایمیل*">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" id="phone"
+                            class="form-control w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:shadow-lg"
+                            placeholder="شماره تلفن">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" id="organization"
+                            class="form-control w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:shadow-lg"
+                            placeholder="سازمان">
+                    </div>
+                    <div class="mb-4">
+                        <textarea id="message"
+                            class="form-control w-full border border-gray-300 p-2 rounded-lg focus:outline-none focus:shadow-lg"
+                            rows="4" placeholder="پیام دلخواه"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit"
+                            class="w-full bg-[#23004F] text-white hover:bg-purple-700  font-medium py-3 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                            درخواست خود را ارسال کنید
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br><br><br>
+    </main>
+
+
+
+    <footer class="bg-[#23004F] px-6 pt-7 pb-12 text-white font-[estedad] w-full border-t-8 border-white">
+        <div class="w-full flex flex-col mt-5">
+
+
+            <div class="flex flex-wrap justify-center gap-6 md:gap-[90px]">
+                <a href="" class="flex text-decoration-none text-white">ماموریت</a>
+                <a href="" class="flex text-decoration-none text-white">بلاگ</a>
+                <a href="" class="flex text-decoration-none text-white">کارها</a>
+                <a href="" class="flex text-decoration-none text-white">راه حل</a>
+                <a href="" class="flex text-decoration-none text-white">محصولات</a>
+                <a href="" class="flex text-decoration-none text-white">خانه</a>
+            </div>
+
+<br><br>
+            <div class="flex justify-center">
+                <svg viewBox="0 0 684 3" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[70%] mx-auto">
+                    <path
+                        d="M0 1.407c4.546.043 9.127.068 13.72.076 8.997 0 17.995-.095 26.993-.047 23.749.114 47.498.37 71.247.427 94.589.313 189.366.313 283.955 0 25.666-.105 51.48-.162 77.146-.152 48.678 0 97.357.133 146.182.161 17.795-.009 35.57-.079 53.251-.208 4.13 0 7.671-.295 11.506-.456-3.835-.161-7.671-.342-11.801-.484h-3.688c-45.433 0-90.866.114-136.298.076C474.979.753 417.745.61 360.512.506 324.077.439 287.791.43 251.504.326A20115.72 20115.72 0 0 0 32.158.477C19.855.474 8.13.813 0 1.407Z"
+                        fill="#6D35B2"></path>
+                </svg>
+            </div>
+
+            <div class="flex flex-wrap justify-center text-[13px] gap-4 mt-5 md:gap-[69px]">
+                <a href="" class="flex text-decoration-none text-white">پرسش های متداول</a>
+                <a href="" class="flex text-decoration-none text-white">قابلیت دسترسی</a>
+                <a href="" class="flex text-decoration-none text-white">پشتیبانی</a>
+                <a href="" class="flex text-decoration-none text-white">شرایط پیامک</a>
+                <a href="" class="flex text-decoration-none text-white">حریم خصوصی</a>
+                <a href="" class="flex text-decoration-none text-white">کوکی ها</a>
+            </div>
+
+            <div class="container mx-auto px-4 flex flex-col justify-center items-center mt-5 text-center">
+                <p class="text-[14px] leading-[185%]">.ارتباطات موثر برای نسل بعدی رهبران دولت</p>
+                <p class="text-[14px] leading-[185%]">© Indigov, 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

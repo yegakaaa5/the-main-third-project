@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./tailwind/tailwind.css">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <style>
@@ -17,227 +16,262 @@
 </head>
 
 <body class="m-0 p-0 box-border rtl:">
-    <header class="bg-white p-1 shadow-lg fixed w-full z-50 top-0 flex items-center font-[400] font-[estedad] ">
-        <div class="container mx-auto flex items-center justify-between font-estedad ">
-            <div class="flex items-center gap-3 ">
+    <header class="bg-white p-1 shadow-2xl fixed w-full z-50 top-0 flex  font-[400] font-[estedad] h-[60px] ">
+        <div class="container mx-auto flex items-center justify-between font-estedad">
+            <div class="flex items-center gap-3">
                 <button class="text-inherit rounded focus:outline-none object-center">
                     <img src="/assistent/image/icons8-menu-24.png" alt="">
                 </button>
                 <a href="/main-page/main.html"
-                    class="text-purple-700 hover:bg-[#b4b0b656] rounded-md duration-300 px-3 py-3 text-base inline-block">
+                    class="text-purple-700 hover:bg-[#b4b0b656] rounded-md duration-300 px-2 py-2 text-base inline-block">
                     <img class="h-5"
                         src="https://strapi-upload-ig-web.s3.us-east-2.amazonaws.com/primary_logo_373b3dbb68.svg?w=1920"
                         alt="">
                 </a>
             </div>
-            <div class="flex gap-4 font-estedad">
-                <div class="ml-auto font-estedad">
-                    <nav class="flex items-center">
-                        <ul class="list-none flex gap-10 mr-5 text-xl items-center">
-                            <li class="flex items-center p-4 cursor-pointer transition duration-300 ease-in-out">
-                                <span class="text-base text-[#330072]">محصولات</span>
+            <div class="flex gap-4 h-[60px]">
+                <div class="font-estedad flex  h-[60px]">
+                    <nav>
+                        <ul class="list-none flex items-center gap-10 text-xl h-[60px] max-[1200px]:hidden">
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <span class="text-base text-[#330072] ">محصولات</span>
                             </li>
-                            <li class="flex items-center p-4 cursor-pointer transition duration-300 ease-in-out">
-                                <span class="text-base text-[#330072]">راه‌حل</span>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <span class="text-base text-[#330072] ">راه‌حل</span>
                             </li>
-                            <li class="flex items-center p-4 cursor-pointer transition duration-300 ease-in-out hover:">
-                                <span class="text-base text-[#330072]">کارها</span>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <span class="text-base text-[#330072] ">کارها</span>
                             </li>
-                            <li class="flex items-center p-4 cursor-pointer transition duration-300 ease-in-out hover:">
-                                <span class="text-base text-[#330072]">بلاگ</span>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a href="/blog-page/blog.html" class="text-base text-[#330072] text-decoration-none">بلاگ</a>
                             </li>
-                            <li class="flex items-center p-4 cursor-pointer transition duration-300 ease-in-out hover:">
-                                <span class="text-base text-[#330072]">ماموریت</span>
+                            <li class="p-4 cursor-pointer transition duration-300 ease-in-out">
+                                <a href="/mission-page/mission.html" class="text-base text-[#330072] text-decoration-none">ماموریت</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-
                 <div class="flex gap-3 items-center font-estedad">
+                    <a href="/help-page/help.html"
+                        class="border text-decoration-none border-current text-[#330072] px-3 py-1 text-custom-xs sm:text-base rounded duration-200 hover:bg-[#dfd9d943]">راهنمایی</a>
                     <a
-                        class="border text-decoration-none border-current text-[#330072] px-3 py-1 text-base rounded duration-200 hover:bg-[#dfd9d943]">راهنمایی</a>
-                    <a
-                        class="bg-[#23004F] text-decoration-none border-[#23004F] border-[1px] text-white px-4 py-1  text-base rounded hover:shadow-lg duration-200">درخواست‌دمو</a>
+                        class="bg-[#23004F] text-decoration-none border-[#23004F] border-[1px] text-white px-4 py-1 text-custom-xs sm:text-base rounded hover:shadow-lg duration-200">درخواست‌دمو</a>
                 </div>
+
             </div>
         </div>
     </header>
 
-    <main dir="rtl">
-        <div class="bg-[url('/assistent/image/ig-pillars.png')] w-[100%] h-[114vh] px-[32px] py-[88px] font-[estedad]">
-            <div
-                class="grid w-full absolute left-0 top-0 h-[114vh] opacity-[0.8] grid-cols-[1fr_25%]  grid-row-[1fr] z-0 ">
+
+    <main dir="rtl" class="border-b-8 border-white w-full">
+        <div class="bg-[url('/assistent/image/ig-pillars.png')] w-[100%] h-[900px] px-[32px] py-[88px] font-[estedad] bg-no-repeat">
+            <div class="grid w-full absolute left-0 top-0 h-[774px] opacity-[0.8] grid-cols-[1fr_25%] grid-row-[1fr] z-0 ">
                 <div class="bg-[#FBE8D9] flex justify-center"></div>
                 <div class="bg-custom-gradient flex justify-center"></div>
-
-
             </div>
-
-            <div class="flex justify-start gap-[100px] relative " style="top:40px; left:-80px;">
-                <div class="flex z-10 flex-col w-[500px]">
+    
+            <div class="flex justify-start gap-[100px] relative max-[1200px]:flex-col" style="top:40px; left:-80px;">
+                <div class="flex z-10 flex-col w-[500px] max-[1200px]:flex max-[1200px]:justify-center">
                     <div class="relative flex flex-col bg-transparent gap-10 w-[450px]">
                         <div class="w-[500px]">
-                            <h1 class="inline-block text-[50px] text-[#330072] leading-tight">
+                            <h1 class="inline-block text-[50px] max-[600px]:text-[25px] text-[#330072] leading-tight">
                                 کارایی خدمات مشتری <br> با نسل بعدی دولت<br>
                                 روبرو میشود:
-                                <svg class="w-[150px] align-middle inline-block" viewBox="0 0 69 3"
-                                    preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0 1.964c.458.064.92.102 1.384.114.908 0 1.815-.142 2.723-.07 2.396.17 4.791.554 7.187.64 9.542.47 19.103.47 28.645 0a118.37 118.37 0 0 1 7.782-.228c4.91 0 9.821.2 14.746.242a53.189 53.189 0 0 0 5.372-.313c.417 0 .774-.441 1.16-.683-.386-.242-.773-.513-1.19-.726h-.372c-4.583 0-9.166.17-13.749.113-5.774-.07-11.547-.284-17.32-.44C32.691.512 29.03.497 25.37.341A136.711 136.711 0 0 0 3.244.57 4.388 4.388 0 0 0 0 1.964Z"
-                                        fill="#381F7E" />
+                                <svg class="w-[150px] align-middle inline-block max-[600px]:w-[75px]" viewBox="0 0 69 3" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 1.964c.458.064.92.102 1.384.114.908 0 1.815-.142 2.723-.07 2.396.17 4.791.554 7.187.64 9.542.47 19.103.47 28.645 0a118.37 118.37 0 0 1 7.782-.228c4.91 0 9.821.2 14.746.242a53.189 53.189 0 0 0 5.372-.313c.417 0 .774-.441 1.16-.683-.386-.242-.773-.513-1.19-.726h-.372c-4.583 0-9.166.17-13.749.113-5.774-.07-11.547-.284-17.32-.44C32.691.512 29.03.497 25.37.341A136.711 136.711 0 0 0 3.244.57 4.388 4.388 0 0 0 0 1.964Z" fill="#381F7E" />
                                 </svg>
                             </h1>
                         </div>
-                        <p class="font-light text-[16px] text-[#46362A] leading-[185%] ">
+                        <p class="font-light text-[16px] max-[600px]:text-[8px] text-[#46362A] leading-[185%] ">
                             با ابزار روابط مؤسسه Indigov، مقامات دولتی، آژانس‌ها و کارکنان آنها می‌توانند با پیامی که
                             مهم است به هر یک از مؤسسان پاسخ دهند و ارتباط برقرار کنند.
                         </p>
                     </div>
-
+    
                     <form action="" class="grid gap-6 pt-4">
                         <div class="inline-flex flex-col relative border-[0px] align-top">
-                            <label for="mui-1"
-                                class="text-[rgba(0,0,0,0.6)] font-normal text-[16px]  px-3  block absolute top-3 text-ellipsis overflow-hidden max-w[100%-24px] right-2 text-base transition-all duration-300 ease-in-out">ایمیل</label>
-                            <input type="email" name="email" id="mui-1"
-                                class="h-12 py-1 px-2 rounded-md w-full border-b-2 border-gray-300 hover:border-[#330072] focus:border-[#330072] transition-all duration-200 ease-[cubic-bezier(0.0, 0, 0.2, 1)] focus:outline-none ">
+                            <label for="mui-1" class="text-[rgba(0,0,0,0.6)] font-normal text-[16px] max-[600px]:text-[8px] px-3 block absolute top-3 text-ellipsis overflow-hidden max-w[100%-24px] right-2 text-base transition-all duration-300 ease-in-out">ایمیل</label>
+                            <input type="email" name="email" id="mui-1" class="h-12 py-1 px-2 rounded-md w-full border-b-2 border-gray-300 hover:border-[#330072] focus:border-[#330072] transition-all duration-200 ease-[cubic-bezier(0.0, 0, 0.2, 1)] focus:outline-none ">
                         </div>
                         <div class="grid gap-2">
-                            <button
-                                class="inline-block px-6 py-3 bg-[#330072] hover:bg-[#23004F] text-white text-lg rounded font-medium shadow-md transition-all duration-200 ease-in-out">
+                            <button class="inline-block px-6 py-3 bg-[#330072] hover:bg-[#23004F] text-white text-lg max-[600px]:text-xs rounded font-medium shadow-md transition-all duration-200 ease-in-out">
                                 درخواست دمو
                             </button>
-                            <button
-                                class="flex justify-center items-center h-8 px-6 py-3 hover-bg-custom hover:bg-opacity-30 text-[#330072] text-l rounded font-normal transition-all duration-200 ease-in-out">
+                            <button class="flex justify-center items-center h-8 px-6 py-3 hover-bg-custom hover:bg-opacity-30 text-[#330072] text-l max-[600px]:text-xs rounded font-normal transition-all duration-200 ease-in-out">
                                 با پشتیبانی تماس بگیرید
                             </button>
                         </div>
                     </form>
-
+    
                 </div>
-
-                <div
-                    class="relative flex items-center border-[1px] border-[#FF8F1C] border-double rounded-full bg-white overflow-hidden w-[40%] max-w-[564px] p-2">
-                    <img src="/assistent/image/download.png" class="object-contain absolute top-5 max-w-[500px]" alt="">
-                </div>
-
-
-            </div>
-        </div>
-        <div class="px-[32px] py-[88px] bg-[#FFF9F4] font-[estedad]">
-            <div class="grid gap-[96px]">
-                <div class="flex flex-row gap-[16px] w-full">
-
-                    <div class="text-right flex flex-col w-[44%] mt-36">
-                        <h1 class="text-[#330072] leading-[200%] text-4xl pb-[24px]">
-                            زمان پاسخگویی را کاهش دهید. <br>
-                            تعامل را بهبود بخشید.
-                        </h1>
-                        <p class="text-[#212020]">در طول 15 سال گذشته، ادارات دولتی شاهد انفجار در درخواست های
-                            دریافتی بوده اند.
-                            کانال‌های دیجیتال جدید، همگام‌سازی را دشوار می‌کنند و شرکت‌کنندگان انتظار دارند سطح
-                            مشارکت فزاینده‌ای داشته باشند. ما Indigov را برای حل این مشکل و کمک به مقیاس بهتر
-                            دموکراسی ساختیم.
-                        </p>
-                        <div class="flex w-[234px] mt-4">
-                            <button
-                                class="flex items-center justify-center px-6 py-3 border border-[#330072] text-[#330072] bg-transparent text-lg rounded-[5px] hover:bg-[#33007209] focus:outline-none focus:ring-2">
-                                ببین چجور کار میکنه <img src="/assistent/image/icons8-arrow-24.png" class="mr-2" alt="">
-                            </button>
-                        </div>
-                    </div>
-
-
-                    <div class="flex w-[50%]">
-                        <img src="https://indigov.com/ig-octo.svg" class="w-full h-auto" alt="">
+                <div class="flex items-center justify-center w-full max-[1200px]:mt-[150px] ">
+                    <div dir="ltr" class="absolute bg-white rounded-full border-[2px] border-[#E36F2C] flex justify-center items-center w-[450px] max-[600px]:w-[225px]">
+                        <img src="/assistent/image/download.png" class="object-contain rounded-full w-full h-full" alt="">
                     </div>
                 </div>
+    
             </div>
         </div>
+  
 
+    </div>
+</div>
+<div class="px-[32px] py-[88px] bg-[#FFF9F4] font-[estedad]">
+    <div class="grid gap-[96px]">
+        <div class="flex flex-row gap-[16px] w-full">
 
-        <div id="cards"
-            class="w-full px-8 bg-[#FBE8D9] flex flex-col justify-center flex-wrap items-center font-[estedad]">
-            <div class="mt-16 mb-5 font-medium text-[#330072] text-[25px]">
-                <h2>
-                    بلاگ ما
-                </h2>
+            <div class="text-right flex flex-col w-[44%] mt-36">
+                <h1 class="text-[#330072] leading-[200%] text-4xl pb-[24px] sm:text-[12px]">
+                    زمان پاسخگویی را کاهش دهید. <br>
+                    تعامل را بهبود بخشید.
+                </h1>
+                <p class="text-[#212020] sm:text-[12px]">در طول 15 سال گذشته، ادارات دولتی شاهد انفجار در درخواست های
+                    دریافتی بوده اند.
+                    کانال‌های دیجیتال جدید، همگام‌سازی را دشوار می‌کنند و شرکت‌کنندگان انتظار دارند سطح
+                    مشارکت فزاینده‌ای داشته باشند. ما Indigov را برای حل این مشکل و کمک به مقیاس بهتر
+                    دموکراسی ساختیم.
+                </p>
+                <div class="flex w-[234px] mt-4">
+                    <button
+                        class="flex items-center justify-center px-6 py-3 border border-[#330072] text-[#330072] bg-transparent text-lg rounded-[5px] hover:bg-[#33007209] focus:outline-none focus:ring-2">
+                        ببین چجور کار میکنه <img src="/assistent/image/icons8-arrow-24.png" class="mr-2" alt="">
+                    </button>
+                </div>
             </div>
 
-            <div class="card mb-3 max-w-[85%] h-auto">
-                <div class="row g-0">
-                    <div class="col-md-8 flex flex-col items-start justify-center w-[48%]">
-                        <div class="card-body flex flex-col items-start justify-center">
-                            <h5 class="card-title">
-                                <div class="flex gap-3 items-center justify-start">
-                                    <span class="font-medium text-[12px] ">اردیبهشت ۱۴۰۳</span>
-                                    <div class="px-2 py-1 rounded-full bg-[#FBE8D9] text-[12px] text-gray-800">
-                                        <span class="overflow-hidden text-ellipsis py-[3px] px-[10px]">بهترین
-                                            تمرین</span>
-                                    </div>
-                                    <div class="px-2 py-1 text-[12px] text-gray-800 bg-[#FBE8D9] rounded-full">
-                                        <span class="">منابع</span>
-                                    </div>
-                                </div>
-                            </h5>
 
-                            <p class="card-text text-[25px] font-medium text-[#330072] mb-4 overflow-ellipsis">استراتژی
-                                ایمیل برای دولت:
-                                نکاتی برای
-                                موفقیت
-                            </p>
+            <div class="flex w-[50%] ">
+                <img src="https://indigov.com/ig-octo.svg" class="w-full h-auto" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 
-                            <p class="card-text overflow-ellipsis">
-                            <div
-                                class="text-body-secondary text-[16px] font-normal leading-[185%] overflow-hidden text-ellipsis ">
-                                یاد بگیرید که
-                                تحویل ایمیل چگونه کار می کند و دولت چه اقداماتی می تواند برای بهبود دسترسی به ایمیل
-                                انجام دهد.
+
+<div id="cards"
+    class="w-full px-8 bg-[#FBE8D9] flex flex-col justify-center flex-wrap items-center font-[estedad]">
+    <div class="mt-16 mb-5 font-medium text-[#330072] text-[25px]">
+        <h2>
+            بلاگ ما
+        </h2>
+    </div>
+
+    <div class="card mb-3 max-w-[85%] h-auto">
+        <div class="row g-0">
+            <div class="col-md-8 flex flex-col items-start justify-center w-[48%]">
+                <div class="card-body flex flex-col items-start justify-center">
+                    <h5 class="card-title">
+                        <div class="flex gap-3 items-center justify-start">
+                            <span class="font-medium text-[12px] ">اردیبهشت ۱۴۰۳</span>
+                            <div class="px-2 py-1 rounded-full bg-[#FBE8D9] text-[12px] text-gray-800">
+                                <span class="overflow-hidden text-ellipsis py-[3px] px-[10px]">بهترین
+                                    تمرین</span>
                             </div>
-                            </p>
+                            <div class="px-2 py-1 text-[12px] text-gray-800 bg-[#FBE8D9] rounded-full">
+                                <span class="">منابع</span>
+                            </div>
                         </div>
+                    </h5>
+
+                    <p class="card-text text-[25px] font-medium text-[#330072] mb-4 overflow-ellipsis">استراتژی
+                        ایمیل برای دولت:
+                        نکاتی برای
+                        موفقیت
+                    </p>
+
+                    <p class="card-text overflow-ellipsis">
+                    <div
+                        class="text-body-secondary text-[16px] font-normal leading-[185%] overflow-hidden text-ellipsis ">
+                        یاد بگیرید که
+                        تحویل ایمیل چگونه کار می کند و دولت چه اقداماتی می تواند برای بهبود دسترسی به ایمیل
+                        انجام دهد.
                     </div>
-                    <div class="col-md-4">
-                        <img src="/assistent/image/improvecomms_first.png"
-                            class="img-fluid rounded-start object-cover h-auto" alt="...">
-                    </div>
+                    </p>
                 </div>
             </div>
-
-
-
-
-        </div>
-        <div class="bg-[#FBE8D9] ">
-            <div class="flex gap-3 justify-center mb-6" id="card"></div>
-
-            <div class="flex gap-3 px-8 justify-center items-center flex-col font-[estedad]">
-                <div>
-                    <button
-                        class="inline-block px-12 py-2 bg-[#330072] hover:bg-[#23004F] text-white text-lg rounded font-medium shadow-md transition-all duration-200 ease-in-out">منابع
-                        بیشتر و مطبوعات</button>
-                </div>
-                <div>
-                    <button
-                        class="flex items-center justify-center px-[52px] py-2 border hover:bg-[#20283e34] border-[#330072] text-[#330072] bg-transparent text-lg rounded-[5px] focus:outline-none focus:ring-2">پرسش
-                        های مطبوعاتی</button>
-                </div>
+            <div class="col-md-4">
+                <img src="/assistent/image/improvecomms_first.png"
+                    class="img-fluid rounded-start object-cover h-auto" alt="...">
             </div>
-            <br><br>
         </div>
+    </div>
 
-        <div class="felx justify-center w-72">
-            <img src="/assistent/image/download (5).png" alt="">
+</div>
+<div class="bg-[#FBE8D9] w-full">
+    <div class="flex gap-3 justify-center mb-6 sm:flex flex-col mx-auto items-center align-middle sm:w-95" id="card"></div>
+
+    <div class="flex gap-3 px-8 justify-center items-center flex-col font-[estedad]">
+        <div>
+            <button
+                class="inline-block px-12 py-2 bg-[#330072] hover:bg-[#23004F] text-white text-lg rounded font-medium shadow-md transition-all duration-200 ease-in-out">منابع
+                بیشتر و مطبوعات</button>
         </div>
-
+        <div>
+            <button
+                class="flex items-center justify-center px-[52px] py-2 border hover:bg-[#20283e34] border-[#330072] text-[#330072] bg-transparent text-lg rounded-[5px] focus:outline-none focus:ring-2">پرسش
+                های مطبوعاتی</button>
+        </div>
+    </div>
+    <br><br>
+</div>
+</main>
     </main>
-    <footer>
-        <div class=""></div>
+    
+
+    <div class="flex flex-col items-center justify-center border-transparent border-8 rounded-full">
+        <div
+            class="relative w-full bg-white h-[300px] border-t-2 border-b-2 border-[#E36F2C] flex justify-center items-center">
+            <div
+                class="absolute -top-6 bg-white rounded-full border-[2px] border-[#E36F2C] flex justify-center items-center w-[350px]">
+                <img src="/assistent/image/download (5).png" class="object-contain rounded-full w-full h-full p-2"
+                    alt="Image">
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-[#23004F] px-6 pt-7 pb-12 text-white font-[estedad] w-full border-t-8 border-white">
+        <div class="w-full flex flex-col mt-5">
+
+
+            <div class="flex flex-wrap justify-center gap-6 md:gap-[90px]">
+                <a href="" class="flex text-decoration-none text-white">ماموریت</a>
+                <a href="" class="flex text-decoration-none text-white">بلاگ</a>
+                <a href="" class="flex text-decoration-none text-white">کارها</a>
+                <a href="" class="flex text-decoration-none text-white">راه حل</a>
+                <a href="" class="flex text-decoration-none text-white">محصولات</a>
+                <a href="" class="flex text-decoration-none text-white">خانه</a>
+            </div>
+
+            <br><br>
+            <div class="flex justify-center">
+                <svg viewBox="0 0 684 3" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[70%] mx-auto">
+                    <path
+                        d="M0 1.407c4.546.043 9.127.068 13.72.076 8.997 0 17.995-.095 26.993-.047 23.749.114 47.498.37 71.247.427 94.589.313 189.366.313 283.955 0 25.666-.105 51.48-.162 77.146-.152 48.678 0 97.357.133 146.182.161 17.795-.009 35.57-.079 53.251-.208 4.13 0 7.671-.295 11.506-.456-3.835-.161-7.671-.342-11.801-.484h-3.688c-45.433 0-90.866.114-136.298.076C474.979.753 417.745.61 360.512.506 324.077.439 287.791.43 251.504.326A20115.72 20115.72 0 0 0 32.158.477C19.855.474 8.13.813 0 1.407Z"
+                        fill="#6D35B2"></path>
+                </svg>
+            </div>
+
+            <div class="flex flex-wrap justify-center text-[13px] gap-4 mt-5 md:gap-[69px]">
+                <a href="" class="flex text-decoration-none text-white">پرسش های متداول</a>
+                <a href="" class="flex text-decoration-none text-white">قابلیت دسترسی</a>
+                <a href="" class="flex text-decoration-none text-white">پشتیبانی</a>
+                <a href="" class="flex text-decoration-none text-white">شرایط پیامک</a>
+                <a href="" class="flex text-decoration-none text-white">حریم خصوصی</a>
+                <a href="" class="flex text-decoration-none text-white">کوکی ها</a>
+            </div>
+
+            <div class="container mx-auto px-4 flex flex-col justify-center items-center mt-5 text-center">
+                <p class="text-[14px] leading-[185%]">.ارتباطات موثر برای نسل بعدی رهبران دولت</p>
+                <p class="text-[14px] leading-[185%]">© Indigov, 2022</p>
+            </div>
+        </div>
     </footer>
 
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/node_modules/axios/dist/axios.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="../main-page/main.js"></script>
 </body>
 
 </html>

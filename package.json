@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./main-page/tailwind/tailwind.css -o ./main-page/main.css --watch","server":""
+    "tailwind": "npx tailwindcss -i ./main-page/tailwind/tailwind.css -o ./main-page/main.css --watch",
+    "server2": "json-server db2.json --port 3000",
+    "server": "json-server db.json --port 4000",
+    "tailwind2": "npx tailwindcss -i ./mission-page/tailwind/tailwind.css -o ./mission-page/mission.css --watch",
+    "tailwind3": "npx tailwindcss -i ./help-page/tailwind/tailwind.css -o ./help-page/help.css --watch",
+    "tailwind4": "npx tailwindcss -i ./blog-page/tailwind/tailwind.css -o ./blog-page/blog.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +20,7 @@
   "dependencies": {
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
+    "express": "^4.21.1",
     "json-server": "^1.0.0-beta.3"
   }
 }

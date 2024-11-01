@@ -792,10 +792,6 @@ video {
   margin: 1rem;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1162,10 +1158,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-95 {
-  width: 95%;
 }
 
 .max-w-\[85\%\] {
@@ -1908,10 +1900,6 @@ video {
   line-height: 1.5rem;
 }
 
-.text-custom-xs {
-  font-size: 10px;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1925,11 +1913,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-\[400\] {
@@ -2187,65 +2170,6 @@ video {
 
   .max-\[1200px\]\:justify-center {
     justify-content: center;
-  }
-}
-
-@media (max-width: 600px) {
-  .max-\[600px\]\:w-\[225px\] {
-    width: 225px;
-  }
-
-  .max-\[600px\]\:w-\[75px\] {
-    width: 75px;
-  }
-
-  .max-\[600px\]\:text-\[25px\] {
-    font-size: 25px;
-  }
-
-  .max-\[600px\]\:text-\[8px\] {
-    font-size: 8px;
-  }
-
-  .max-\[600px\]\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:w-95 {
-    width: 95%;
-  }
-
-  .sm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .sm\:text-custom-xs {
-    font-size: 10px;
-  }
-
-  .sm\:text-\[12px\] {
-    font-size: 12px;
-  }
-
-  .sm\:text-\[\] {
-    color: ;
   }
 }
 

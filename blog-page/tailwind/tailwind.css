@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    @font-face {
+        font-family: estedad;
+        src: url(/assistent/font/Estedad-v5.0-Fontjo.com/ttf/Estedad-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: nazanin;
+        src: url(/assistent/font/B-Nazanin-Bold/B\ Nazanin\ Bold_0.ttf);
+    }
+}
